@@ -16,8 +16,8 @@ n = int(input("Number of employees you want to enter:"))
 list = []
 for i in range(n):
     a = readData()
-    l.append(a)
+    list.append(a)
 
 searchkey = int(input("Enter the employee ID of the employee to be searched:"))
-searchTuples(l, searchkey)
+searchTuples(list, searchkey)
 
